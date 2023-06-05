@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PRACTICA 2 - ESTEBAN SOLIS</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="PRACTICA 2 DISEÑO WEB Y PATRONES">
+        <meta name="keywords" content="tienda, streetwaer, style, fashion">
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header class="header">
+            <nav class="nav">
+                <a href="index.html" class="logo nav-link">BlueFire</a>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="brands.html">BRANDS</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="shirts.html">SHIRTS</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="shoes.html">SHOES</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="location.html">LOCATION</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="contact.html">CONTACT</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="soundtracks.html">SOUNDTRACKS</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="signup.html">SIGN UP</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <h2 class="subtitle">Shop now. Define your style. Make it real.</h2>
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <!-- CODIGO PARA QUE EL VIDEO PERMANEZCA CENTRADO -->
+                <video width="1903" height="1070" controls autoplay muted loop onplay="this.controls=false" class="hidden-controls">>
+                    <!-- Busque una forma para que el video se reproduzca en bucle, no se pueda pausar 
+                    y se esconda la barra de control para que se vea mas estetico-->
+                    <source src="video/videosw.mp4" type="video/mp4">
+                    Your browser does not support the <code>video</code>
+                </video>
+            </div> 
+            <div id="cuadro">
+                <h2><strong>SOUNDTRACKS</strong></h2><br><br><br>
+                <p><strong>Our recommendations for skating in style!</strong></p><br><br><br>
+                <audio controls>
+                    <source src="musica/Polaris.mp3" type="audio/mpeg">
+                    Your browser does not support the <code>audio</code>
+                </audio><br>
+                <footer>Saiko - Polaris</footer><br><br><br><br>
+                <audio controls>
+                    <source src="musica/Supernova.mp3" type="audio/mpeg">
+                    Your browser does not support the <code>audio</code>
+                </audio><br>
+                <footer>Saiko - SuperNova</footer><br><br><br><br>
+                <audio controls>
+                    <source src="musica/Nonstop.mp3" type="audio/mpeg">
+                    Your browser does not support the <code>audio</code>
+                </audio><br>
+                <footer>Quevedo - Nonstop</footer>
+            </div>
+        </section>
+        <footer class="footer">BlueFire &COPY; 2023 <address style="display: inline">San Jose, Costa Rica</address></footer>
+    </body>
+</html>
